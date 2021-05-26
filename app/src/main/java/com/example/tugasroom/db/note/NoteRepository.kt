@@ -1,8 +1,8 @@
+package com.example.tugasroom.db.note
+
 import android.app.Application
 import androidx.lifecycle.LiveData
 import com.example.tugasroom.db.AppDatabase
-import com.example.tugasroom.db.note.Note
-import com.example.tugasroom.db.note.NoteDao
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking

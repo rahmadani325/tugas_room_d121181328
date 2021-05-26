@@ -1,11 +1,10 @@
 package com.example.tugasroom.ui.main
 
-import NoteRepository
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import com.example.tugasroom.db.note.Note
-
+import com.example.tugasroom.db.note.NoteRepository
 
 class NoteViewModel(application: Application) : AndroidViewModel(application) {
 
