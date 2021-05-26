@@ -8,7 +8,7 @@ interface NoteDao {
     fun getNotes(): LiveData<List<Note>>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun inserNote(note: Note)
+    suspend fun insertNote(note: Note)
 
     @Delete
     suspend fun deleteNote(note: Note)
